@@ -1,6 +1,6 @@
 
 import random
-from clases.casillas import Casillas 
+from clases.casillas import Casillas
 
 class Ruleta(): #Clase con la que se va a crear el objeto Ruleta luego
 
