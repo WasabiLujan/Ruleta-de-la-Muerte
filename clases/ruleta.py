@@ -7,6 +7,8 @@ class Ruleta(): #Clase con la que se va a crear el objeto Ruleta luego
     def __init__(self):
         self.__lista_de_casillas: list[Casillas] = [] #Aca encapsulamos en una lista las casillas
 
+    def agregar_casilla(self, casilla: Casillas) -> None: #Esta funcion añade una casilla a la ruleta
+        self.__lista_de_casillas.append(casilla)
 
 
     
